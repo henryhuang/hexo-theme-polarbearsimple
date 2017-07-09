@@ -2,7 +2,7 @@
 
 修改自 [hexo-theme-polarbear](https://github.com/frostfan/hexo-theme-polarbear)，主要使用了 Archive 直接作为首页。
 
-[在线预览 Demo](http://huangyijie.com)
+[在线预览 Demo](https://huangyijie.com)
 
 ## 安装使用（Installation）
 ```
