@@ -2,7 +2,7 @@
 {% import '_macro/archive_index.swig' as archive_template %}
 
 {% block title %}
-  {{ __('menu.archives') }} - {{ config.title }}
+  {{ config.title }}
 {% endblock %}
 
 {% block content %}
