@@ -36,3 +36,8 @@
 {% if not env.debug %}
   {% include "../_script/analytics.swig" %}
 {% endif %}
+
+{# Ads #}
+{% if not env.debug %}
+  {% include "../_script/ads.swig" %}
+{% endif %}
