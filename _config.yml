@@ -57,6 +57,17 @@ google_analytics:
 duoshuo_shortname:
 # Disqus
 disqus_shortname:
+# Valine. 
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+valine:
+  enable: false # if you want use Valine,please set enable: true
+  appid:  # your leancloud application appid
+  appkey:  # your leancloud application appkey
+  notify: false
+  verify: false
+  visitor: false
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊!
 
 
 # ===========================================
