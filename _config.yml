@@ -17,6 +17,7 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
+  Gallery: http://huangyijiegallery.lofter.com/
   About: /about
 
 # ===========================================
