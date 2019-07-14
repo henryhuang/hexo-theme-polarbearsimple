@@ -38,11 +38,14 @@
     font-weight: 400;
     font-size: $site-title-size;
     color: rgba(0, 0, 0, 0.7);
+    a {
+        color: rgba(0, 0, 0, 0.6);
+    }
 }
 
 #nav-top {
     float: right;
-    
+
     .nav-top-items {
         list-style: none;
         padding-left: 0px;

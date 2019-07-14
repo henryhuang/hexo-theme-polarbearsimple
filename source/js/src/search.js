@@ -85,7 +85,7 @@ $(function () {
     $('#searchField').off('change paste keyup');
   });
 
-  $('#search').on('click', function (e) {
+  $('#search').on('click touchstart', function (e) {
     e.preventDefault();
     $('#search-container').addClass('search-container-active');
     $('#searchField').focus();
