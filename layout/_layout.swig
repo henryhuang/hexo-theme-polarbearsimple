@@ -22,8 +22,12 @@
         <i class="iconfont icon-up"></i>
       </div>
     </div>
+    {% include '_partial/search.swig' %}
+
     {% include '_script/comments.swig' %}
     {% include '_script/libs.swig' %}
     {% include '_script/theme.swig' %}
+    {% include '_script/search.swig' %}
+
   </body>
 </html>

@@ -4,7 +4,7 @@
     </h1>
 
     <nav id="nav-top">
-        {% if theme.menu %}
+        {% if (config.algolia) || theme.menu %}
             <ul id="menu-top" class="nav-top-items">
                 {% for name, path in theme.menu %}
                     <li class="menu-item">
@@ -18,7 +18,13 @@
                         </a>
                     </li>
                 {% endfor %}
+                {% if config.algolia %}
+                    <li class="menu-item">
+                        <a id="search" href="">{{ __('site.search') }}</a>
+                    </li>
+                {% endif %}
             </ul>
         {% endif %}
-  </nav>
+    </nav>
+
 </div>

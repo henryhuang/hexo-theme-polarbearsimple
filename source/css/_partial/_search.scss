@@ -1,0 +1,41 @@
+body {
+  min-height: 100%;
+
+  .search-container-active {
+    top: 0 !important;
+  }
+
+  .search-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: rgba(255, 255, 255, .97);
+    z-index: 3;
+    top: -100%;
+    -webkit-transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    .panel-block {
+      a {
+        color: #363636;
+        width: 100%;
+      }
+
+      em {
+        background: rgba(84, 104, 255, .1);
+        color: #5468ff;
+        font-style: normal;
+      }
+    }
+
+    .modal-content {
+      background: white;
+    }
+
+  }
+
+}
+

@@ -1,3 +1,7 @@
+site:
+  search: Search
+  searchPlaceHolder: Enter anything...
+
 menu:
   home: Home
   archives: Archives

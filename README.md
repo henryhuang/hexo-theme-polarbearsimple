@@ -27,4 +27,29 @@ archive_generator:
     daily: false
 ```
 
-更多请查看 [hexo-theme-polarbear](https://github.com/frostfan/hexo-theme-polarbear)。
+## 添加 Algolia搜索
+
+添加 hexo-algoliasearch 插件
+```
+npm install --save hexo-algoliasearch
+```
+
+在网站的**_config.yml**里配置：
+
+```
+algolia:
+  appId: "<APP_ID>"
+  apiKey: "<API_KEY>"
+  adminApiKey: "<ADMIN_API_KEY>"
+  chunkSize: 5000
+  indexName: "<INDEX_NAME>"
+  fields:
+  - content:strip:truncate,0,500
+  - excerpt:strip
+  - permalink
+  - cover
+  - slug
+  - tags
+  - categories
+  - title
+```
