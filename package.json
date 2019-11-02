@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/ahonn/hexo-theme-polarbear#readme",
   "devDependencies": {
-    "eslint": "^3.12.0"
+    "eslint": "^6.6.0"
   }
 }
