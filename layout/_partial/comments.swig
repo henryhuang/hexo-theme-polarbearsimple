@@ -14,6 +14,9 @@
       <div class="ds-thread" data-thread-key="{{ page.path }}"
            data-title="{{ page.title }}" data-url="{{ page.permalink }}">
       </div>
+    
+    {% elif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
+      <div id="vcomment"></div>
     {% endif %}
   </div>
 {% endif %}
